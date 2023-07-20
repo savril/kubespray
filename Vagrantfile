@@ -53,7 +53,7 @@ $shared_folders ||= {}
 $forwarded_ports ||= {}
 $subnet ||= "172.18.8"
 $subnet_ipv6 ||= "fd3c:b398:0698:0756"
-$os ||= "ubuntu2004"
+$os ||= "ubuntu2204"
 $network_plugin ||= "flannel"
 # Setting multi_networking to true will install Multus: https://github.com/k8snetworkplumbingwg/multus-cni
 $multi_networking ||= "False"
